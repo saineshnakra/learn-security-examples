@@ -1,1 +1,11 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+When a person is behaving like another person (impersonating) to get access to endpoints or information that is not public.
+1. vulnerability is that the user can see the session. Cookies are being read programmatically. 
+
+Crucks lies in how we are setting the cookie -> we are going to sign it with some secret. SID : is set to true then cookies cannot be read
+programmatically {Server can make a distinction between a user and between code}
+
+samesite: request can only be sent from localhost:3000 and not sent from another website.
+
+httponly: can't copy a user's cookie.

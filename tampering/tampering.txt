@@ -1,0 +1,10 @@
+Attacker can change or tamper with the applications's inputs to cause unintended behaviour
+For example they can put an html file where we were displaying a name.
+Also called XSS attack : Cross site scripting attack
+
+
+How to prevent this attack?
+Convert into strings. You can use a library for it or you can define a script on your own.
+
+CIA property it violates: 
+It violates Integrity.
