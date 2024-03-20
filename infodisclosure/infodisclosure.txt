@@ -1,3 +1,11 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+Refers to the unauthorized exposure or leakage of sensitive information, such as personal data or system details, to unintended parties.
+Basically data lead in some part of the data flow.
+Fixing the leakages by handling possible injection.
+
+
+
 Which CIA property does tampering violate?
+Confidentiality 
 What additional security mechanisms can you incorporate?
+Analyzing according to the threat modelling and understand the possible leakages.
