@@ -1,0 +1,14 @@
+Privilege escalation occurs when there's a lack of proper authorization checks or flaws in the system's implementation, 
+allowing users to gain access to resources or perform actions beyond their permitted level. To mitigate this risk, secure
+ coding practices involve establishing a unique session for each authentication process. This means if a user has previously authenticated, 
+ a session is already in place to track their permissions.
+
+To further enhance security and prevent such vulnerabilities, it's crucial to implement measures that safeguard against session spoofing. 
+This can be achieved by configuring cookies to be HTTP-only and enforcing cross-site request restrictions by setting the SameSite attribute 
+to true. Despite these precautions, sessions can still be compromised, leading to potential spoofing. A robust method to counteract this risk
+ is through the use of authentication tokens and two-factor authentication (2FA), adding an extra layer of security against unauthorized access.
+
+
+
+
+

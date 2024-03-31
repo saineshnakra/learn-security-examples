@@ -1,2 +1,16 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+Non-repudiation issues arise when a system fails to link actions performed on it to a particular user, frequently due to insufficient 
+logging or audit strategies. To counteract this, a secure system incorporates a logging mechanism that captures a record every time an 
+endpoint is accessed, including details like the username or the originating IP address.
+
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+To ensure logs remain tamper-proof, restrict editing permissions and establish strict audit policies, 
+including the automation of log analysis. Implementing anti-spoofing measures is also crucial, as this prevents 
+attackers from masquerading as legitimate users, ensuring actions logged accurately reflect the true source.
+
+
+
+
+
+

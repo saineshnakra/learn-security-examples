@@ -1,2 +1,15 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+A denial of service (DoS) attack disrupts client access to a server or resource, either by exploiting a
+ vulnerability to crash the server or by flooding it with excessive requests. To mitigate such attacks, the 
+ secure server version employs try/catch blocks to effectively manage erroneous inputs, ensuring uninterrupted service availability.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+To safeguard against excessive traffic and ensure security, strategies such as rate-limiting to control request volume,
+input sanitization to clean data, and load balancing for distributing traffic across multiple servers (facilitated by firewalls 
+or Content Delivery Networks) are implemented.
+
+
+
+
+
+

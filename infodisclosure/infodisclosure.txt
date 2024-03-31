@@ -1,3 +1,11 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+An unsecured server is susceptible to SQL injection attacks, where an attacker can introduce SQL 
+commands through parameters, leading to unauthorized database information disclosure. To counteract this, 
+the improved server version enhances security by verifying that all user inputs are strings and then cleansing these
+ inputs to eliminate any special characters that could be used to construct a SQL command.
+
 Which CIA property does tampering violate?
+Confidentiality, Integrity
+
 What additional security mechanisms can you incorporate?
+Encrypting data
